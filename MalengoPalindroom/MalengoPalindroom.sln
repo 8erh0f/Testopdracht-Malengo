@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Web
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalengoPalindroom", "MalengoPalindroom\MalengoPalindroom.csproj", "{56041F72-5EF7-4FB8-964A-D7A70DD1AD27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalengoPalindroom.Tests", "MalengoPalindroom.Tests\MalengoPalindroom.Tests.csproj", "{822CA066-B7DE-46E3-BD0D-23BDB19E13BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56041F72-5EF7-4FB8-964A-D7A70DD1AD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56041F72-5EF7-4FB8-964A-D7A70DD1AD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56041F72-5EF7-4FB8-964A-D7A70DD1AD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56041F72-5EF7-4FB8-964A-D7A70DD1AD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822CA066-B7DE-46E3-BD0D-23BDB19E13BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822CA066-B7DE-46E3-BD0D-23BDB19E13BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822CA066-B7DE-46E3-BD0D-23BDB19E13BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822CA066-B7DE-46E3-BD0D-23BDB19E13BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

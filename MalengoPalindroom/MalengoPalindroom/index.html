@@ -1,0 +1,49 @@
+﻿    <!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.0.js"></script>
+    <script src="signalr/hubs"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/palindroom.js"></script>
+</head>
+<body ng-app="palindroom-app">
+    <div class="container">
+        <div class="jumbotron" ng-controller="PalindroomController">
+            <h1>Palindroom opdracht</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <table>
+                        <tr>
+                            <td>Lengte:</td>
+                            <td><input type="text" ng-model="lengte" /></td>
+                        </tr>
+                        <tr>
+                            <td>Aantal:</td>
+                            <td><input type="text" ng-model="aantal" /></td>
+                        </tr>
+                    </table>
+                    <!--<div ng-repeat="pal in woorden">
+                        {{pal}}
+                    </div>-->
+                </div>
+                <div class="col-sm-4">
+                    <table>
+                        <tr>
+                            <td> </td>
+                            <td><input type="button" value="Start" ng-click="newWoord()" /></td>
+                            <td><input type="text" ng-model="woord" /></td>
+                        </tr>
+                    </table>
+                    <!--<div ng-repeat="pal in woorden">
+                        {{pal}}
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
